@@ -227,7 +227,7 @@ header{
     }
     
     .dsp{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-top: 10%;
     }
     .dsp1{
@@ -435,36 +435,75 @@ header{
     color: #000000;
  }
 
- @media (max-width:1280px){
+ .viber1{
+    color: black;
+ }
+
+ /* @media (max-width:1280px){
     .viber{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         right: 20px;
         bottom: 20px;
         position: fixed;
-        color: green;
-	    width: 60px;
+        color: white;
 	    height: 60px;
 	    line-height: 68px;
 	    text-align: center;
+        background-color: green;
+        width: 160px;
         
     }
- }
+    .viber1{
+        font-size: 2.5rem;
+        left: 20px;
+        bottom: 20px;
+        position: fixed;
+        color: white;
+	    height: 60px;
+	    line-height: 68px;
+	    text-align: center;
+        background-color: purple;
+    }
+ } */
 
  @media (max-width:500px){
     .viber{
-        font-size: 2.8rem;
-        right: -3px;
+        font-size: 0.8rem;
+        right: 20px;
         bottom: 20px;
         position: fixed;
-        color: green;
-	    width: 60px;
-	    height: 60px;
-	    line-height: 68px;
+        color: white;
+	    height: 30px;
+	    line-height: 32px;
 	    text-align: center;
+        background-color: green;
+        border-radius: 20px;
+        width: 120px;
+        transition: all .50s ease;
     }
+    .viber1{
+        font-size: 0.8rem;
+        left: 20px;
+        bottom: 20px;
+        position: fixed;
+        color: white;
+	    height: 30px;
+	    line-height: 32px;
+	    text-align: center;
+        background-color: purple;
+        border-radius: 20px;
+        width: 100px;
+        transition: all .50s ease;
+    }
+
+    .viber:hover{
+        transform: scale(1.2);
+    }
+    .viber1:hover{
+        transform: scale(1.2);
+    }
+
  }
-
-
  .ctntel{
     background-color: rgb(144, 0, 0);
     max-width: 100%;
